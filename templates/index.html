@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待办事项列表</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>待办事项</h1>
+        <div class="input-group">
+            <input type="text" id="todo-input" placeholder="输入新的待办事项...">
+            <button onclick="addTodo()">添加</button>
+        </div>
+        <ul id="todo-list">
+            <!-- 待办事项将在这里动态生成 -->
+        </ul>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
